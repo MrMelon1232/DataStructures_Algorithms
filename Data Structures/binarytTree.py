@@ -65,7 +65,7 @@ def dfs_stack(node):
 print("Listing dfs_stack traversal")
 dfs_stack(A)
 
-# Recursive pre order traversal (DFS)
+# Recursive in order traversal (DFS)
 # Time complexity: O(n) | space complexity: O(n)
 def in_order(node):
     if not node:
@@ -79,7 +79,7 @@ def in_order(node):
 print("Listing in_order traversal")
 in_order(A)
 
-# Recursive pre order traversal (DFS)
+# Recursive post order traversal (DFS)
 # Time complexity: O(n) | space complexity: O(n)
 def post_order(node):
     if not node:
