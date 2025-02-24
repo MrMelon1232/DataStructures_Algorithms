@@ -62,7 +62,7 @@ for u, v in edges:
 topologicalSortDFS(D, V)
 
 
-# Method 2: BFS
+# Method 2: BFS 
 # Steps:
 # 1. Create indegree array storing all indegree of each nodes
 # 2. Store nodes with indegree = 0 in our queue
@@ -70,6 +70,8 @@ topologicalSortDFS(D, V)
 # 4. Pop the first item and store it in our result array ; decrement the indegree of its adjacent nodes
 # 5. Store nodes with indegree = 0 in our queue
 # 6. If the length of our result is not equal to the number of nodes, then theres a cycle
+# NOTE: we can create our indegree array and fill it when creating our adjacency matrix
+
 from collections import deque
 
 def topologicalSortBFS(adj, V):

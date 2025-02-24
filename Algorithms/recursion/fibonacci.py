@@ -13,7 +13,7 @@ sample output: 0 1 1 2 3 5 8 13 21 ....
 When thinking about recursion, think that the algorithm starts from the top and calls the function all the way to the bottom until, we reach a base case
 Only then will it start building to reach out final answer
 """
-# Time complexity - O(n^2) | Space complexity - O(n)
+# Time complexity - O(2^n) | Space complexity - O(n)
 def fibonacci_brute_recursion(n):
     # Define base cases
     if n == 0:
