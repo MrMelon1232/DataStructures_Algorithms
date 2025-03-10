@@ -57,6 +57,9 @@ a = "hello"
 for char in a:
     d[char] = 1 + d.get(char, 0)
 
+# Function get(): retrieves a value in our map and if it doesn't exist, initialize it with an initial value
+d.get('a', 0)
+
 
 # Default dict | this library can be used to map lists to dictionaries, etc
 from collections import defaultdict

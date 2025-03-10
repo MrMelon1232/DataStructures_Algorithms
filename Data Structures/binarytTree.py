@@ -32,6 +32,8 @@ C.left = F
 #   2       3
 # 4   5   6    
 
+# Note that trees can also be implemented with a dictionary where each key contains a dictionary pointing to its child nodes
+
 # Recursive pre order traversal (DFS) | use this when the desired node is far
 # Time complexity: O(n) | space complexity: O(n)
 def pre_order(node):
